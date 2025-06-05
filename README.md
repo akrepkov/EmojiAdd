@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# Emoji Sticker App created with [Expo](https://expo.dev)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native app built with Expo that lets users add emojis to images, animate them with drag and transform gestures, and download the final result. The app also features buttons, tabs, and smooth animations for a rich user experience.
 
 ## Get started
 
-1. Install dependencies
-
    ```bash
    npm install
-   ```
+   //Install dependencies
 
-2. Start the app
-
-   ```bash
    npx expo start
+   //start the app
+
+   npm run reset-project
+   //get a fresh project
+   
    ```
+## Features
 
-In the output, you'll find options to open the app in a
+- Select or pick images from the device gallery
+- Add emoji stickers on top of images
+- Drag, scale, and transform emojis with gestures
+- Download the edited image to device storage
+- Smooth animations using `react-native-reanimated`
+- Responsive UI with buttons and tabs
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Technologies Used
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- React Native  
+- Expo  
+- react-native-gesture-handler  
+- react-native-reanimated  
+- expo-image-picker  
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Screenshots
+<table>
+  <tr>
+    <td style="width: 50%;"><img src="./AppVersion.jpg" alt="App Version" /></td>
+    <td style="width: 50%;"><img src="./WebVersion.png" alt="Web version" /></td>
+  </tr>
+</table>
